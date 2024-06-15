@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Pomodoro Clock App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Pomodoro clock application helps you manage your work and break sessions effectively using the popular time management technique.
 
-## Available Scripts
+![Pomodoro Clock Screenshot](./screenshot.png)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Pomodoro Clock App is a productivity tool that helps users work efficiently using the Pomodoro Technique. This technique involves working for a set period (typically 25 minutes), followed by a short break (typically 5 minutes). The cycle repeats to help maintain focus and productivity.
 
-### `yarn test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Session and Break Length Control**: Adjust the duration of work sessions (Session) and break periods (Break) to suit your preferences.
+- **Countdown Timer**: Displays the remaining time for the current session or break in MM:SS format.
+- **Start, Pause, and Reset**: Control buttons to start, pause/resume, and reset the timer.
+- **Audio Alert**: Plays a sound alert when a session or break ends.
 
-### `yarn build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: Built with React for a dynamic and responsive user interface.
+- **CSS**: Styled with CSS for layout and design.
+- **HTML5 Audio**: Utilizes HTML5 audio for playing alert sounds.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this project locally, follow these steps:
 
-### `yarn eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/ductmOfficial/pomodoro-clock
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate into the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   cd pomodoro-clock
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies:
 
-## Learn More
+   ```bash
+   yarn install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   yarn start
+   ```
 
-### Code Splitting
+5. Open your browser and visit `http://localhost:3000` to view the Pomodoro clock application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+- Adjust the session and break lengths using the up/down buttons next to each timer label.
+- Click the "Start" button to begin the timer.
+- Click the "Pause" button to pause the timer. Click again to resume.
+- Click the "Reset" button to reset both session and break lengths and stop the timer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! If you have any suggestions, bug reports, or improvements, please feel free to submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
 
-### Advanced Configuration
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- The audio alert sound used in this application is from [FreeCodeCamp](https://www.freecodecamp.org/).
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
